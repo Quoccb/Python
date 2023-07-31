@@ -1,0 +1,564 @@
+2023-07-31 20:33:40,210 - _log:1893 - DEBUG - starting thread (client mode): 0xaa37cc10
+2023-07-31 20:33:40,210 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-07-31 20:33:40,217 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-07-31 20:33:40,217 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 20:33:40,218 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-07-31 20:33:40,219 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-07-31 20:33:40,219 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-07-31 20:33:40,219 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-07-31 20:33:40,219 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-07-31 20:33:40,219 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-07-31 20:33:40,219 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-07-31 20:33:40,219 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-07-31 20:33:40,219 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-07-31 20:33:40,219 - _log:1893 - DEBUG - client lang: <none>
+2023-07-31 20:33:40,220 - _log:1893 - DEBUG - server lang: <none>
+2023-07-31 20:33:40,220 - _log:1893 - DEBUG - kex follows: False
+2023-07-31 20:33:40,220 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-07-31 20:33:40,220 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-07-31 20:33:40,220 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-07-31 20:33:40,220 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-07-31 20:33:40,220 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-07-31 20:33:40,220 - _log:1893 - DEBUG - Compression: none
+2023-07-31 20:33:40,220 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-07-31 20:33:40,227 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-07-31 20:33:40,227 - _log:1893 - DEBUG - Switch to new keys ...
+2023-07-31 20:33:40,227 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-07-31 20:33:40,228 - _log:1893 - DEBUG - Adding ssh-ed25519 host key for 192.168.56.102: b'ff613e1a8ab4d8cfc57cbba00bb565bd'
+2023-07-31 20:33:40,242 - _log:1893 - DEBUG - userauth is OK
+2023-07-31 20:33:40,266 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 20:33:40,267 - _log:1210 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2023-07-31 20:33:40,875 - _log:1893 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2023-07-31 20:33:40,875 - _log:1893 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-07-31 20:33:40,917 - _log:1210 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2023-07-31 20:33:40,917 - _log:1893 - DEBUG - Secsh channel 0 opened.
+2023-07-31 20:33:40,919 - _log:1210 - DEBUG - [chan 0] Sesch channel 0 request ok
+2023-07-31 20:33:40,920 - _log:1210 - DEBUG - [chan 1] Max packet in: 32768 bytes
+2023-07-31 20:33:40,921 - _log:1210 - DEBUG - [chan 1] Max packet out: 32768 bytes
+2023-07-31 20:33:40,922 - _log:1893 - DEBUG - Secsh channel 1 opened.
+2023-07-31 20:33:40,924 - _log:1210 - DEBUG - [chan 1] Sesch channel 1 request ok
+2023-07-31 20:33:40,925 - _log:1210 - DEBUG - [chan 0] EOF sent (0)
+2023-07-31 20:33:40,926 - _log:1210 - DEBUG - [chan 1] EOF sent (1)
+2023-07-31 20:33:40,929 - _log:1210 - DEBUG - [chan 0] EOF received (0)
+2023-07-31 20:33:40,929 - <module>:47 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 20:33:40,930 - <module>:48 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 20:33:40,931 - _log:1893 - DEBUG - EOF in transport thread
+2023-07-31 20:34:59,900 - _log:1893 - DEBUG - starting thread (client mode): 0xfb21cb50
+2023-07-31 20:34:59,900 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-07-31 20:34:59,908 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-07-31 20:34:59,908 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 20:34:59,909 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-07-31 20:34:59,909 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-07-31 20:34:59,909 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-07-31 20:34:59,909 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-07-31 20:34:59,909 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-07-31 20:34:59,909 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-07-31 20:34:59,909 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-07-31 20:34:59,909 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-07-31 20:34:59,909 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-07-31 20:34:59,909 - _log:1893 - DEBUG - client lang: <none>
+2023-07-31 20:34:59,910 - _log:1893 - DEBUG - server lang: <none>
+2023-07-31 20:34:59,910 - _log:1893 - DEBUG - kex follows: False
+2023-07-31 20:34:59,910 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-07-31 20:34:59,910 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-07-31 20:34:59,910 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-07-31 20:34:59,910 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-07-31 20:34:59,910 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-07-31 20:34:59,910 - _log:1893 - DEBUG - Compression: none
+2023-07-31 20:34:59,910 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-07-31 20:34:59,917 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-07-31 20:34:59,917 - _log:1893 - DEBUG - Switch to new keys ...
+2023-07-31 20:34:59,918 - _log:1893 - DEBUG - Adding ssh-ed25519 host key for 192.168.56.102: b'ff613e1a8ab4d8cfc57cbba00bb565bd'
+2023-07-31 20:34:59,918 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-07-31 20:34:59,933 - _log:1893 - DEBUG - userauth is OK
+2023-07-31 20:34:59,946 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 20:34:59,946 - _log:1210 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2023-07-31 20:35:00,549 - _log:1893 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2023-07-31 20:35:00,549 - _log:1893 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-07-31 20:35:00,589 - _log:1210 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2023-07-31 20:35:00,589 - _log:1893 - DEBUG - Secsh channel 0 opened.
+2023-07-31 20:35:00,591 - _log:1210 - DEBUG - [chan 0] Sesch channel 0 request ok
+2023-07-31 20:35:00,591 - _log:1210 - DEBUG - [chan 1] Max packet in: 32768 bytes
+2023-07-31 20:35:00,592 - _log:1210 - DEBUG - [chan 1] Max packet out: 32768 bytes
+2023-07-31 20:35:00,592 - _log:1893 - DEBUG - Secsh channel 1 opened.
+2023-07-31 20:35:00,594 - _log:1210 - DEBUG - [chan 1] Sesch channel 1 request ok
+2023-07-31 20:35:00,594 - _log:1210 - DEBUG - [chan 0] EOF sent (0)
+2023-07-31 20:35:00,594 - _log:1210 - DEBUG - [chan 1] EOF sent (1)
+2023-07-31 20:35:00,598 - _log:1210 - DEBUG - [chan 0] EOF received (0)
+2023-07-31 22:28:53,498 - _log:1893 - DEBUG - starting thread (client mode): 0xd99bcc10
+2023-07-31 22:28:53,498 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-07-31 22:28:53,506 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-07-31 22:28:53,506 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 22:28:53,507 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-07-31 22:28:53,507 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-07-31 22:28:53,508 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-07-31 22:28:53,508 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-07-31 22:28:53,508 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-07-31 22:28:53,508 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-07-31 22:28:53,508 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-07-31 22:28:53,508 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-07-31 22:28:53,508 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-07-31 22:28:53,508 - _log:1893 - DEBUG - client lang: <none>
+2023-07-31 22:28:53,508 - _log:1893 - DEBUG - server lang: <none>
+2023-07-31 22:28:53,508 - _log:1893 - DEBUG - kex follows: False
+2023-07-31 22:28:53,508 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-07-31 22:28:53,508 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-07-31 22:28:53,508 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-07-31 22:28:53,508 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-07-31 22:28:53,508 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-07-31 22:28:53,509 - _log:1893 - DEBUG - Compression: none
+2023-07-31 22:28:53,509 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-07-31 22:28:53,515 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-07-31 22:28:53,516 - _log:1893 - DEBUG - Switch to new keys ...
+2023-07-31 22:28:53,516 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-07-31 22:28:53,517 - _log:1893 - DEBUG - Adding ssh-ed25519 host key for 192.168.56.102: b'ff613e1a8ab4d8cfc57cbba00bb565bd'
+2023-07-31 22:28:53,531 - _log:1893 - DEBUG - userauth is OK
+2023-07-31 22:28:53,543 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 22:28:53,544 - _log:1210 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2023-07-31 22:28:54,125 - _log:1893 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2023-07-31 22:28:54,125 - _log:1893 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-07-31 22:28:54,166 - _log:1210 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2023-07-31 22:28:54,166 - _log:1893 - DEBUG - Secsh channel 0 opened.
+2023-07-31 22:28:54,167 - _log:1210 - DEBUG - [chan 0] Sesch channel 0 request ok
+2023-07-31 22:28:54,167 - _log:1210 - DEBUG - [chan 1] Max packet in: 32768 bytes
+2023-07-31 22:28:54,168 - _log:1210 - DEBUG - [chan 1] Max packet out: 32768 bytes
+2023-07-31 22:28:54,168 - _log:1893 - DEBUG - Secsh channel 1 opened.
+2023-07-31 22:28:54,169 - _log:1210 - DEBUG - [chan 1] Sesch channel 1 request ok
+2023-07-31 22:28:54,170 - _log:1210 - DEBUG - [chan 0] EOF sent (0)
+2023-07-31 22:28:54,170 - _log:1210 - DEBUG - [chan 1] EOF sent (1)
+2023-07-31 22:28:54,170 - _log:1210 - DEBUG - [chan 0] EOF received (0)
+2023-07-31 22:28:54,171 - <module>:47 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 22:28:54,171 - <module>:48 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 22:29:04,940 - _log:1893 - DEBUG - starting thread (client mode): 0xc0aecc70
+2023-07-31 22:29:04,940 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-07-31 22:29:04,947 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-07-31 22:29:04,947 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 22:29:04,948 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-07-31 22:29:04,948 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-07-31 22:29:04,949 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-07-31 22:29:04,949 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-07-31 22:29:04,949 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-07-31 22:29:04,949 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-07-31 22:29:04,949 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-07-31 22:29:04,949 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-07-31 22:29:04,949 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-07-31 22:29:04,949 - _log:1893 - DEBUG - client lang: <none>
+2023-07-31 22:29:04,949 - _log:1893 - DEBUG - server lang: <none>
+2023-07-31 22:29:04,949 - _log:1893 - DEBUG - kex follows: False
+2023-07-31 22:29:04,949 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-07-31 22:29:04,949 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-07-31 22:29:04,949 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-07-31 22:29:04,949 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-07-31 22:29:04,949 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-07-31 22:29:04,949 - _log:1893 - DEBUG - Compression: none
+2023-07-31 22:29:04,950 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-07-31 22:29:04,956 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-07-31 22:29:04,957 - _log:1893 - DEBUG - Switch to new keys ...
+2023-07-31 22:29:04,957 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-07-31 22:29:04,957 - _log:1893 - DEBUG - Adding ssh-ed25519 host key for 192.168.56.102: b'ff613e1a8ab4d8cfc57cbba00bb565bd'
+2023-07-31 22:29:04,976 - _log:1893 - DEBUG - userauth is OK
+2023-07-31 22:29:04,989 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 22:29:04,990 - _log:1210 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2023-07-31 22:29:05,548 - _log:1893 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2023-07-31 22:29:05,548 - _log:1893 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-07-31 22:29:05,590 - _log:1210 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2023-07-31 22:29:05,590 - _log:1893 - DEBUG - Secsh channel 0 opened.
+2023-07-31 22:29:05,592 - _log:1210 - DEBUG - [chan 0] Sesch channel 0 request ok
+2023-07-31 22:29:05,592 - _log:1210 - DEBUG - [chan 1] Max packet in: 32768 bytes
+2023-07-31 22:29:05,593 - _log:1210 - DEBUG - [chan 1] Max packet out: 32768 bytes
+2023-07-31 22:29:05,593 - _log:1893 - DEBUG - Secsh channel 1 opened.
+2023-07-31 22:29:05,595 - _log:1210 - DEBUG - [chan 1] Sesch channel 1 request ok
+2023-07-31 22:29:05,595 - _log:1210 - DEBUG - [chan 0] EOF sent (0)
+2023-07-31 22:29:05,595 - _log:1210 - DEBUG - [chan 1] EOF sent (1)
+2023-07-31 22:29:05,596 - _log:1210 - DEBUG - [chan 0] EOF received (0)
+2023-07-31 22:29:05,596 - <module>:47 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 22:29:05,596 - <module>:48 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 22:29:40,817 - _log:1893 - DEBUG - starting thread (client mode): 0x8371cbb0
+2023-07-31 22:29:40,818 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-07-31 22:29:40,826 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-07-31 22:29:40,826 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 22:29:40,827 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-07-31 22:29:40,827 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-07-31 22:29:40,827 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-07-31 22:29:40,827 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-07-31 22:29:40,827 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-07-31 22:29:40,827 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-07-31 22:29:40,827 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-07-31 22:29:40,828 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-07-31 22:29:40,828 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-07-31 22:29:40,828 - _log:1893 - DEBUG - client lang: <none>
+2023-07-31 22:29:40,828 - _log:1893 - DEBUG - server lang: <none>
+2023-07-31 22:29:40,828 - _log:1893 - DEBUG - kex follows: False
+2023-07-31 22:29:40,828 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-07-31 22:29:40,828 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-07-31 22:29:40,828 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-07-31 22:29:40,828 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-07-31 22:29:40,828 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-07-31 22:29:40,828 - _log:1893 - DEBUG - Compression: none
+2023-07-31 22:29:40,828 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-07-31 22:29:40,834 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-07-31 22:29:40,835 - _log:1893 - DEBUG - Switch to new keys ...
+2023-07-31 22:29:40,835 - _log:1893 - DEBUG - Adding ssh-ed25519 host key for 192.168.56.102: b'ff613e1a8ab4d8cfc57cbba00bb565bd'
+2023-07-31 22:29:40,836 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-07-31 22:29:40,850 - _log:1893 - DEBUG - userauth is OK
+2023-07-31 22:29:40,863 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 22:29:40,864 - _log:1210 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2023-07-31 22:29:41,525 - _log:1893 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2023-07-31 22:29:41,525 - _log:1893 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-07-31 22:29:41,566 - _log:1210 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2023-07-31 22:29:41,566 - _log:1893 - DEBUG - Secsh channel 0 opened.
+2023-07-31 22:29:41,568 - _log:1210 - DEBUG - [chan 0] Sesch channel 0 request ok
+2023-07-31 22:29:41,568 - _log:1210 - DEBUG - [chan 1] Max packet in: 32768 bytes
+2023-07-31 22:29:41,569 - _log:1210 - DEBUG - [chan 1] Max packet out: 32768 bytes
+2023-07-31 22:29:41,569 - _log:1893 - DEBUG - Secsh channel 1 opened.
+2023-07-31 22:29:41,570 - _log:1210 - DEBUG - [chan 1] Sesch channel 1 request ok
+2023-07-31 22:29:41,571 - _log:1210 - DEBUG - [chan 0] EOF sent (0)
+2023-07-31 22:29:41,571 - _log:1210 - DEBUG - [chan 1] EOF sent (1)
+2023-07-31 22:29:41,572 - _log:1210 - DEBUG - [chan 0] EOF received (0)
+2023-07-31 22:29:41,572 - _log:1893 - DEBUG - EOF in transport thread
+2023-07-31 22:30:29,954 - _log:1893 - DEBUG - starting thread (client mode): 0x3051cc70
+2023-07-31 22:30:29,955 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-07-31 22:30:29,963 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-07-31 22:30:29,963 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 22:30:29,964 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-07-31 22:30:29,964 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-07-31 22:30:29,965 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-07-31 22:30:29,965 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-07-31 22:30:29,965 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-07-31 22:30:29,965 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-07-31 22:30:29,965 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-07-31 22:30:29,965 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-07-31 22:30:29,965 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-07-31 22:30:29,965 - _log:1893 - DEBUG - client lang: <none>
+2023-07-31 22:30:29,965 - _log:1893 - DEBUG - server lang: <none>
+2023-07-31 22:30:29,966 - _log:1893 - DEBUG - kex follows: False
+2023-07-31 22:30:29,966 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-07-31 22:30:29,966 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-07-31 22:30:29,966 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-07-31 22:30:29,966 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-07-31 22:30:29,966 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-07-31 22:30:29,966 - _log:1893 - DEBUG - Compression: none
+2023-07-31 22:30:29,966 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-07-31 22:30:29,974 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-07-31 22:30:29,975 - _log:1893 - DEBUG - Switch to new keys ...
+2023-07-31 22:30:29,975 - _log:1893 - DEBUG - Adding ssh-ed25519 host key for 192.168.56.102: b'ff613e1a8ab4d8cfc57cbba00bb565bd'
+2023-07-31 22:30:29,976 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-07-31 22:30:29,993 - _log:1893 - DEBUG - userauth is OK
+2023-07-31 22:30:30,019 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 22:30:30,020 - _log:1210 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2023-07-31 22:30:30,648 - _log:1893 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2023-07-31 22:30:30,648 - _log:1893 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-07-31 22:30:30,689 - _log:1210 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2023-07-31 22:30:30,689 - _log:1893 - DEBUG - Secsh channel 0 opened.
+2023-07-31 22:30:30,691 - _log:1210 - DEBUG - [chan 0] Sesch channel 0 request ok
+2023-07-31 22:30:30,691 - _log:1210 - DEBUG - [chan 1] Max packet in: 32768 bytes
+2023-07-31 22:30:30,692 - _log:1210 - DEBUG - [chan 1] Max packet out: 32768 bytes
+2023-07-31 22:30:30,693 - _log:1893 - DEBUG - Secsh channel 1 opened.
+2023-07-31 22:30:30,694 - _log:1210 - DEBUG - [chan 1] Sesch channel 1 request ok
+2023-07-31 22:30:30,694 - _log:1210 - DEBUG - [chan 0] EOF sent (0)
+2023-07-31 22:30:30,695 - _log:1210 - DEBUG - [chan 1] EOF sent (1)
+2023-07-31 22:30:30,695 - _log:1210 - DEBUG - [chan 0] EOF received (0)
+2023-07-31 22:30:30,696 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 22:30:30,697 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 22:30:30,697 - _log:1893 - DEBUG - EOF in transport thread
+2023-07-31 22:31:45,506 - _log:1893 - DEBUG - starting thread (client mode): 0xe17fcc70
+2023-07-31 22:31:45,507 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-07-31 22:31:45,515 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-07-31 22:31:45,515 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 22:31:45,516 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-07-31 22:31:45,516 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-07-31 22:31:45,516 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-07-31 22:31:45,516 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-07-31 22:31:45,516 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-07-31 22:31:45,516 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-07-31 22:31:45,516 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-07-31 22:31:45,516 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-07-31 22:31:45,517 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-07-31 22:31:45,517 - _log:1893 - DEBUG - client lang: <none>
+2023-07-31 22:31:45,517 - _log:1893 - DEBUG - server lang: <none>
+2023-07-31 22:31:45,517 - _log:1893 - DEBUG - kex follows: False
+2023-07-31 22:31:45,517 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-07-31 22:31:45,517 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-07-31 22:31:45,517 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-07-31 22:31:45,517 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-07-31 22:31:45,517 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-07-31 22:31:45,517 - _log:1893 - DEBUG - Compression: none
+2023-07-31 22:31:45,517 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-07-31 22:31:45,524 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-07-31 22:31:45,524 - _log:1893 - DEBUG - Switch to new keys ...
+2023-07-31 22:31:45,524 - _log:1893 - DEBUG - Adding ssh-ed25519 host key for 192.168.56.102: b'ff613e1a8ab4d8cfc57cbba00bb565bd'
+2023-07-31 22:31:45,525 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-07-31 22:31:45,538 - _log:1893 - DEBUG - userauth is OK
+2023-07-31 22:31:45,551 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 22:31:45,552 - _log:1210 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2023-07-31 22:31:46,137 - _log:1893 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2023-07-31 22:31:46,137 - _log:1893 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-07-31 22:31:46,179 - _log:1210 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2023-07-31 22:31:46,179 - _log:1893 - DEBUG - Secsh channel 0 opened.
+2023-07-31 22:31:46,180 - _log:1210 - DEBUG - [chan 0] Sesch channel 0 request ok
+2023-07-31 22:31:46,180 - _log:1210 - DEBUG - [chan 1] Max packet in: 32768 bytes
+2023-07-31 22:31:46,181 - _log:1210 - DEBUG - [chan 1] Max packet out: 32768 bytes
+2023-07-31 22:31:46,181 - _log:1893 - DEBUG - Secsh channel 1 opened.
+2023-07-31 22:31:46,182 - _log:1210 - DEBUG - [chan 1] Sesch channel 1 request ok
+2023-07-31 22:31:46,182 - _log:1210 - DEBUG - [chan 0] EOF sent (0)
+2023-07-31 22:31:46,183 - _log:1210 - DEBUG - [chan 1] EOF sent (1)
+2023-07-31 22:31:46,184 - _log:1210 - DEBUG - [chan 0] EOF received (0)
+2023-07-31 22:31:46,184 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 22:31:46,184 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 22:31:46,185 - _log:1893 - DEBUG - Dropping user packet because connection is dead.
+2023-07-31 22:33:37,928 - _log:1893 - DEBUG - starting thread (client mode): 0x469ec550
+2023-07-31 22:33:37,928 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-07-31 22:33:37,936 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-07-31 22:33:37,936 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 22:33:37,937 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-07-31 22:33:37,937 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-07-31 22:33:37,937 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-07-31 22:33:37,938 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-07-31 22:33:37,938 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-07-31 22:33:37,938 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-07-31 22:33:37,938 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-07-31 22:33:37,938 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-07-31 22:33:37,938 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-07-31 22:33:37,938 - _log:1893 - DEBUG - client lang: <none>
+2023-07-31 22:33:37,938 - _log:1893 - DEBUG - server lang: <none>
+2023-07-31 22:33:37,938 - _log:1893 - DEBUG - kex follows: False
+2023-07-31 22:33:37,938 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-07-31 22:33:37,938 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-07-31 22:33:37,938 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-07-31 22:33:37,938 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-07-31 22:33:37,938 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-07-31 22:33:37,938 - _log:1893 - DEBUG - Compression: none
+2023-07-31 22:33:37,938 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-07-31 22:33:37,946 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-07-31 22:33:37,947 - _log:1893 - DEBUG - Switch to new keys ...
+2023-07-31 22:33:37,947 - _log:1893 - DEBUG - Adding ssh-ed25519 host key for 192.168.56.102: b'ff613e1a8ab4d8cfc57cbba00bb565bd'
+2023-07-31 22:33:37,947 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-07-31 22:33:37,962 - _log:1893 - DEBUG - userauth is OK
+2023-07-31 22:33:37,973 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 22:33:37,974 - _log:1210 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2023-07-31 22:33:38,543 - _log:1893 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2023-07-31 22:33:38,543 - _log:1893 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-07-31 22:33:38,584 - _log:1210 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2023-07-31 22:33:38,584 - _log:1893 - DEBUG - Secsh channel 0 opened.
+2023-07-31 22:33:38,585 - _log:1210 - DEBUG - [chan 0] Sesch channel 0 request ok
+2023-07-31 22:33:38,585 - _log:1210 - DEBUG - [chan 1] Max packet in: 32768 bytes
+2023-07-31 22:33:38,586 - _log:1210 - DEBUG - [chan 1] Max packet out: 32768 bytes
+2023-07-31 22:33:38,586 - _log:1893 - DEBUG - Secsh channel 1 opened.
+2023-07-31 22:33:38,587 - _log:1210 - DEBUG - [chan 1] Sesch channel 1 request ok
+2023-07-31 22:33:38,587 - _log:1210 - DEBUG - [chan 0] EOF sent (0)
+2023-07-31 22:33:38,587 - _log:1210 - DEBUG - [chan 1] EOF sent (1)
+2023-07-31 22:33:38,588 - _log:1210 - DEBUG - [chan 0] EOF received (0)
+2023-07-31 22:33:38,589 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 22:33:38,589 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 22:35:28,659 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 22:35:28,660 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 22:36:03,819 - _log:1893 - DEBUG - starting thread (client mode): 0xa99c550
+2023-07-31 22:36:03,819 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-07-31 22:36:03,828 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-07-31 22:36:03,828 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 22:36:03,829 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-07-31 22:36:03,829 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-07-31 22:36:03,830 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-07-31 22:36:03,830 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-07-31 22:36:03,830 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-07-31 22:36:03,830 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-07-31 22:36:03,830 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-07-31 22:36:03,830 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-07-31 22:36:03,830 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-07-31 22:36:03,830 - _log:1893 - DEBUG - client lang: <none>
+2023-07-31 22:36:03,830 - _log:1893 - DEBUG - server lang: <none>
+2023-07-31 22:36:03,830 - _log:1893 - DEBUG - kex follows: False
+2023-07-31 22:36:03,830 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-07-31 22:36:03,830 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-07-31 22:36:03,830 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-07-31 22:36:03,831 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-07-31 22:36:03,831 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-07-31 22:36:03,831 - _log:1893 - DEBUG - Compression: none
+2023-07-31 22:36:03,831 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-07-31 22:36:03,837 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-07-31 22:36:03,838 - _log:1893 - DEBUG - Switch to new keys ...
+2023-07-31 22:36:03,838 - _log:1893 - DEBUG - Adding ssh-ed25519 host key for 192.168.56.102: b'ff613e1a8ab4d8cfc57cbba00bb565bd'
+2023-07-31 22:36:03,838 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-07-31 22:36:03,854 - _log:1893 - DEBUG - userauth is OK
+2023-07-31 22:36:03,867 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 22:36:03,867 - _log:1210 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2023-07-31 22:36:04,443 - _log:1893 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2023-07-31 22:36:04,443 - _log:1893 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-07-31 22:36:04,483 - _log:1210 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2023-07-31 22:36:04,483 - _log:1893 - DEBUG - Secsh channel 0 opened.
+2023-07-31 22:36:04,485 - _log:1210 - DEBUG - [chan 0] Sesch channel 0 request ok
+2023-07-31 22:36:04,485 - _log:1210 - DEBUG - [chan 1] Max packet in: 32768 bytes
+2023-07-31 22:36:04,487 - _log:1210 - DEBUG - [chan 1] Max packet out: 32768 bytes
+2023-07-31 22:36:04,487 - _log:1893 - DEBUG - Secsh channel 1 opened.
+2023-07-31 22:36:04,489 - _log:1210 - DEBUG - [chan 1] Sesch channel 1 request ok
+2023-07-31 22:36:04,489 - _log:1210 - DEBUG - [chan 0] EOF sent (0)
+2023-07-31 22:36:04,489 - _log:1210 - DEBUG - [chan 1] EOF sent (1)
+2023-07-31 22:36:04,490 - _log:1210 - DEBUG - [chan 0] EOF received (0)
+2023-07-31 22:36:04,490 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 22:36:04,490 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 22:36:04,491 - _log:1893 - DEBUG - EOF in transport thread
+2023-07-31 22:37:02,600 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 22:37:02,601 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 22:38:27,515 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 22:38:27,559 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 22:38:28,177 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 22:38:28,177 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 22:45:34,475 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 22:45:34,514 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 22:45:35,139 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 22:45:35,140 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 22:47:31,971 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 22:47:32,008 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 22:47:32,702 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 22:47:32,702 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 22:49:54,507 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 22:49:54,567 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 22:49:55,196 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 22:49:55,197 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 22:50:35,988 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 22:50:36,024 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 22:50:36,646 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 22:50:36,646 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:00:46,581 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:00:46,623 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:00:47,245 - ssh:16 - ERROR - Command df -hhh failed in 192.168.56.102: <paramiko.ChannelFile from <paramiko.Channel 0 (open) window=2097152 -> <paramiko.Transport at 0x6c45cc70 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+2023-07-31 23:00:47,251 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:00:47,252 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:01:57,314 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:01:57,363 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:01:57,990 - ssh:16 - ERROR - Command df h failed in 192.168.56.102: <paramiko.ChannelFile from <paramiko.Channel 0 (open) window=2097152 -> <paramiko.Transport at 0x15a6cbb0 (cipher aes128-ctr, 128 bits) (active; 1 open channel(s))>>>
+2023-07-31 23:01:57,990 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:01:57,990 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:02:58,488 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:02:58,525 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:02:59,164 - ssh:16 - ERROR - Command df h failed in 192.168.56.102: df: h: No such file or directory
+
+2023-07-31 23:02:59,164 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:02:59,164 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:03:30,884 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:03:30,920 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:03:31,571 - ssh:16 - ERROR - "Command df h failed in 192.168.56.102: df: h: No such file or directory
+"
+2023-07-31 23:03:31,572 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:03:31,572 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:03:56,985 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:03:57,021 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:03:57,675 - ssh:16 - ERROR - Command "df h" failed in 192.168.56.102: df: h: No such file or directory
+
+2023-07-31 23:03:57,675 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:03:57,675 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:05:24,060 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:05:24,108 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:05:24,767 - ssh:16 - ERROR - Command "df -h" failed in 192.168.56.102: ""
+2023-07-31 23:05:24,768 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:05:24,768 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:05:58,956 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:05:59,000 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:05:59,608 - ssh:16 - ERROR - Command "df -h" failed in 192.168.56.102: ""
+2023-07-31 23:05:59,608 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:05:59,609 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:12:26,090 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:12:26,127 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:12:26,777 - ssh:16 - ERROR - Command "df -h" failed in 192.168.56.102: ""
+2023-07-31 23:12:26,777 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:12:26,777 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:12:52,828 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:12:52,862 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:12:53,509 - ssh:16 - ERROR - Command "df -h" failed in 192.168.56.102: ""
+2023-07-31 23:12:53,510 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:12:53,510 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:13:53,245 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:13:53,284 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:13:53,934 - ssh:16 - ERROR - Command "df -h" failed in 192.168.56.102: ""
+2023-07-31 23:13:53,934 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:13:53,935 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:17:35,059 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:17:35,094 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:17:35,870 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:17:35,871 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:17:47,355 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:17:47,397 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:17:48,025 - ssh:16 - ERROR - Command "df h" failed in 192.168.56.102: "df: h: No such file or directory
+"
+2023-07-31 23:17:48,025 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:17:48,026 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:20:17,319 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:20:17,355 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:20:18,028 - ssh:16 - ERROR - Command "df h" failed in "192.168.56.102": df: h: No such file or directory
+
+2023-07-31 23:20:18,029 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:20:18,029 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:29:57,452 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:29:57,487 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:29:58,179 - ssh:16 - ERROR - Command "df h" failed in "192.168.56.102": df: h: No such file or directory
+
+2023-07-31 23:29:58,180 - <module>:49 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:29:58,180 - <module>:50 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:32:50,694 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:32:50,733 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:32:51,414 - ssh:16 - ERROR - Command "df h" failed in "192.168.56.102": df: h: No such file or directory
+
+2023-07-31 23:34:28,209 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:34:28,250 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:34:28,887 - ssh:16 - ERROR - Command "df h" failed in "192.168.56.102": df: h: No such file or directory
+
+2023-07-31 23:34:28,887 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:34:28,887 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:34:47,996 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:34:48,034 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:34:48,280 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:34:48,281 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:35:01,092 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:35:01,128 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:35:01,811 - ssh:16 - ERROR - Command "df h" failed in "192.168.56.102": df: h: No such file or directory
+
+2023-07-31 23:35:01,811 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:35:01,811 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:35:09,526 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:35:09,583 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:35:10,223 - ssh:16 - ERROR - Command "df h" failed in "192.168.56.102": df: h: No such file or directory
+
+2023-07-31 23:35:10,223 - <module>:48 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:35:10,224 - <module>:49 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:36:53,961 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:36:53,996 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:36:54,712 - <module>:50 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:36:54,712 - <module>:51 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:38:10,555 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:38:10,619 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:38:11,511 - ssh:17 - ERROR - Command "df h" failed in "192.168.56.102": df: h: No such file or directory
+
+2023-07-31 23:38:11,511 - <module>:50 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:38:11,512 - <module>:51 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:39:00,684 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:39:00,719 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:39:01,382 - ssh:17 - ERROR - Command "df h" failed in "192.168.56.102": df: h: No such file or directory
+
+2023-07-31 23:39:01,383 - <module>:50 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:39:01,383 - <module>:51 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:40:23,269 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:40:23,305 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:40:23,964 - ssh:17 - ERROR - Command "df h" failed in "192.168.56.102": df: h: No such file or directory
+
+2023-07-31 23:40:23,964 - <module>:50 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:40:23,964 - <module>:51 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:40:48,517 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:40:48,555 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:40:49,218 - ssh:17 - ERROR - Command "df h" failed in "192.168.56.102": df: h: No such file or directory
+
+2023-07-31 23:40:49,218 - <module>:50 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:40:49,218 - <module>:51 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:41:02,272 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:41:02,316 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:41:03,033 - ssh:17 - ERROR - Command "df h" failed in "192.168.56.102": df: h: No such file or directory
+
+2023-07-31 23:41:03,033 - <module>:50 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:41:03,034 - <module>:51 - ERROR - 2-Sending heartbeat...error, exception: %s
+2023-07-31 23:43:16,549 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:43:16,588 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:47:14,970 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-07-31 23:47:15,031 - _log:1893 - INFO - Authentication (password) successful!
+2023-07-31 23:47:15,645 - ssh:17 - ERROR - Command "df h" failed in "192.168.56.102": df: h: No such file or directory
+
+2023-07-31 23:47:15,645 - <module>:50 - ERROR - Sending heartbeat...error, exception: %s
+2023-07-31 23:47:15,645 - <module>:51 - ERROR - 2-Sending heartbeat...error, exception: %s
