@@ -3,24 +3,13 @@ import logging
 import re
 import os
 
+
 LOG = logging.getLogger()
 LOG_FILE = re.sub(r'\.py$', r'.log', os.path.basename(__file__))
 
-def ssh(host, username, password, command):
-    client = paramiko.SSHClient()
-    client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-#    client.load_system_host_keys()
-    client.connect(hostname=host, username=username, password=password)
-    stdin1, stdout1, stderr1 = client.exec_command(command)
-    message = stderr1
-    if stdout1.channel.recv_exit_status() != 0:
-        LOG.error('Command \"%s\" failed in \"%s\": %s', command, host, stderr1.read().decode())
-
-#    else break
-    return stdin1, stdout1, message
 
 def _config_logging(verbose=False):
-    LOG.setLevel(logging.INFO)
+    LOG.setLevel(logging.DEBUG)
     file_hdl = logging.FileHandler(LOG_FILE)
     file_hdl.setFormatter(logging.Formatter(
         '%(asctime)s - %(funcName)s:%(lineno)d - %(levelname)s - %(message)s'))
@@ -35,18 +24,66 @@ def _config_logging(verbose=False):
     LOG.addHandler(file_hdl)
     LOG.addHandler(cons_hdl)
 
+
+class Ssh(object):
+    def __init__(self, hostname, username=None, password=None, port=22, pkey=None, timeout=60):
+        self.hostname = hostname
+        self.username = username
+        self.password = password
+        self.port = port
+        self.pkey = pkey
+        self.timeout = timeout
+        self._client = paramiko.SSHClient()
+        self._client.load_system_host_keys()
+        self._client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+
+    def connect(self):
+        try:
+            self._client.connect(hostname=self.hostname,
+                                 username=self.username,
+                                 password=self.password,
+                                 port=self.port,
+                                 pkey=self.pkey,
+                                 timeout=self.timeout)
+            return True
+        except Exception:
+            LOG.error("Failed to access to %s@%s", self.username, self.hostname)
+            # print("Failed to access to " + self.username + "@" + self.hostname)
+            return False
+
+    def exec_command(
+            self,
+            command,
+            timeout):
+        _stdin, _stdout, _stderr = self._client.exec_command(command, timeout=timeout)
+        return _stdin, _stdout, _stderr
+
+
+    def Check_acc_pass_expires(self):
+        chage_command = "chage -l " + self.username
+        _stdin, _stdout, _stderr = self._client.exec_command(command=chage_command)
+        x = _stdout.readlines()
+        pass_expires = x[1].split(":")[1].replace("\n", "").replace(" ", "")
+        acc_expires = x[3].split(":")[1].replace("\n", "").replace(" ", "")
+        if (pass_expires == "never" and acc_expires == "never"):
+            print("OK")
+        else:
+            print("not OK")
+
+
 if __name__ == "__main__":
-    _host = "192.168.56.102"
-    _username = "quoccb"
-    _password = "1"
-    _command = 'df h'
+    host = "192.168.56.102"
+    username = "quoccb"
+    password = "1"
+    command = 'cat test.txt'
+    timeout = 1
 
     _config_logging()
-    _stdin, _stdout, _stderr = ssh(_host, _username, _password, _command)
-
-#    print(type(_stderr))
-    print(_stderr.read().decode())
-
-    LOG.error('Sending heartbeat...error, exception: %s', )
-    LOG.error('2-Sending heartbeat...error, exception: %s', )
-    # print(LOG)
+    Vm1 = Ssh(hostname=host, username=username, password=password, timeout=timeout)
+    Vm2 = Ssh(hostname=host, username="red17", password=password,timeout=timeout)
+    connect1 = Vm1.connect()
+    connect2 = Vm2.connect()
+    if connect1:
+        Vm1.Check_acc_pass_expires()
+    if connect2:
+        Vm2.Check_acc_pass_expires()

@@ -1,0 +1,469 @@
+2023-08-03 23:28:39,671 - _log:1893 - DEBUG - starting thread (client mode): 0xd2039c00
+2023-08-03 23:28:39,672 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-08-03 23:28:39,680 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-08-03 23:28:39,680 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-08-03 23:28:39,681 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-08-03 23:28:39,681 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-08-03 23:28:39,682 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-08-03 23:28:39,682 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-03 23:28:39,682 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-03 23:28:39,682 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-03 23:28:39,682 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-03 23:28:39,682 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-08-03 23:28:39,682 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-08-03 23:28:39,682 - _log:1893 - DEBUG - client lang: <none>
+2023-08-03 23:28:39,682 - _log:1893 - DEBUG - server lang: <none>
+2023-08-03 23:28:39,682 - _log:1893 - DEBUG - kex follows: False
+2023-08-03 23:28:39,682 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-08-03 23:28:39,682 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-08-03 23:28:39,683 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-08-03 23:28:39,683 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-08-03 23:28:39,683 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-08-03 23:28:39,683 - _log:1893 - DEBUG - Compression: none
+2023-08-03 23:28:39,683 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-08-03 23:28:39,689 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-08-03 23:28:39,689 - _log:1893 - DEBUG - Switch to new keys ...
+2023-08-03 23:28:39,689 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-08-03 23:28:39,690 - _log:1893 - DEBUG - Adding ssh-ed25519 host key for 192.168.56.102: b'ff613e1a8ab4d8cfc57cbba00bb565bd'
+2023-08-03 23:28:39,705 - _log:1893 - DEBUG - userauth is OK
+2023-08-03 23:28:43,751 - _log:1893 - INFO - Authentication (password) failed.
+2023-08-03 23:28:43,751 - connect:47 - ERROR - Failed to access to quoccbb@192.168.56.102
+2023-08-03 23:28:43,752 - _log:1893 - DEBUG - EOF in transport thread
+2023-08-03 23:41:49,686 - _log:1893 - DEBUG - starting thread (client mode): 0x248423b0
+2023-08-03 23:41:49,686 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-08-03 23:41:49,695 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-08-03 23:41:49,695 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-08-03 23:41:49,697 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-08-03 23:41:49,697 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-08-03 23:41:49,697 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-08-03 23:41:49,697 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-03 23:41:49,697 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-03 23:41:49,697 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-03 23:41:49,697 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-03 23:41:49,698 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-08-03 23:41:49,698 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-08-03 23:41:49,698 - _log:1893 - DEBUG - client lang: <none>
+2023-08-03 23:41:49,698 - _log:1893 - DEBUG - server lang: <none>
+2023-08-03 23:41:49,698 - _log:1893 - DEBUG - kex follows: False
+2023-08-03 23:41:49,698 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-08-03 23:41:49,698 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-08-03 23:41:49,698 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-08-03 23:41:49,698 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-08-03 23:41:49,698 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-08-03 23:41:49,698 - _log:1893 - DEBUG - Compression: none
+2023-08-03 23:41:49,698 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-08-03 23:41:49,707 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-08-03 23:41:49,708 - _log:1893 - DEBUG - Switch to new keys ...
+2023-08-03 23:41:49,709 - _log:1893 - DEBUG - Adding ssh-ed25519 host key for 192.168.56.102: b'ff613e1a8ab4d8cfc57cbba00bb565bd'
+2023-08-03 23:41:49,709 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-08-03 23:41:49,724 - _log:1893 - DEBUG - userauth is OK
+2023-08-03 23:41:49,733 - _log:1893 - INFO - Authentication (password) failed.
+2023-08-03 23:41:49,735 - _log:1893 - DEBUG - starting thread (client mode): 0x2491c310
+2023-08-03 23:41:49,735 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-08-03 23:41:49,747 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-08-03 23:41:49,747 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-08-03 23:41:49,748 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-08-03 23:41:49,748 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-08-03 23:41:49,748 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-08-03 23:41:49,748 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-03 23:41:49,748 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-03 23:41:49,748 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-03 23:41:49,749 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-03 23:41:49,749 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-08-03 23:41:49,749 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-08-03 23:41:49,749 - _log:1893 - DEBUG - client lang: <none>
+2023-08-03 23:41:49,749 - _log:1893 - DEBUG - server lang: <none>
+2023-08-03 23:41:49,749 - _log:1893 - DEBUG - kex follows: False
+2023-08-03 23:41:49,749 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-08-03 23:41:49,749 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-08-03 23:41:49,749 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-08-03 23:41:49,749 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-08-03 23:41:49,749 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-08-03 23:41:49,749 - _log:1893 - DEBUG - Compression: none
+2023-08-03 23:41:49,749 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-08-03 23:41:49,756 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-08-03 23:41:49,756 - _log:1893 - DEBUG - Switch to new keys ...
+2023-08-03 23:41:49,757 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-08-03 23:41:49,758 - _log:1893 - DEBUG - userauth is OK
+2023-08-03 23:41:51,781 - _log:1893 - INFO - Authentication (password) failed.
+2023-08-03 23:41:51,782 - connect:59 - ERROR - Failed to access to quoccbb@192.168.56.102
+2023-08-03 23:41:51,782 - _log:1893 - DEBUG - EOF in transport thread
+2023-08-03 23:41:51,782 - _log:1893 - DEBUG - EOF in transport thread
+2023-08-03 23:42:29,713 - _log:1893 - DEBUG - starting thread (client mode): 0x7fa23b0
+2023-08-03 23:42:29,714 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-08-03 23:42:29,722 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-08-03 23:42:29,722 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-08-03 23:42:29,731 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-08-03 23:42:29,731 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-08-03 23:42:29,731 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-08-03 23:42:29,732 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-03 23:42:29,732 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-03 23:42:29,732 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-03 23:42:29,732 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-03 23:42:29,732 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-08-03 23:42:29,732 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-08-03 23:42:29,732 - _log:1893 - DEBUG - client lang: <none>
+2023-08-03 23:42:29,732 - _log:1893 - DEBUG - server lang: <none>
+2023-08-03 23:42:29,732 - _log:1893 - DEBUG - kex follows: False
+2023-08-03 23:42:29,732 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-08-03 23:42:29,732 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-08-03 23:42:29,732 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-08-03 23:42:29,732 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-08-03 23:42:29,732 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-08-03 23:42:29,732 - _log:1893 - DEBUG - Compression: none
+2023-08-03 23:42:29,732 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-08-03 23:42:29,739 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-08-03 23:42:29,739 - _log:1893 - DEBUG - Switch to new keys ...
+2023-08-03 23:42:29,739 - _log:1893 - DEBUG - Adding ssh-ed25519 host key for 192.168.56.102: b'ff613e1a8ab4d8cfc57cbba00bb565bd'
+2023-08-03 23:42:29,739 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-08-03 23:42:29,782 - _log:1893 - DEBUG - userauth is OK
+2023-08-03 23:42:29,789 - _log:1893 - INFO - Authentication (password) failed.
+2023-08-03 23:42:29,791 - _log:1893 - DEBUG - starting thread (client mode): 0x803c310
+2023-08-03 23:42:29,791 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-08-03 23:42:29,799 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-08-03 23:42:29,799 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-08-03 23:42:29,801 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-08-03 23:42:29,801 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-08-03 23:42:29,801 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-08-03 23:42:29,801 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-03 23:42:29,801 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-03 23:42:29,801 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-03 23:42:29,801 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-03 23:42:29,802 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-08-03 23:42:29,802 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-08-03 23:42:29,802 - _log:1893 - DEBUG - client lang: <none>
+2023-08-03 23:42:29,802 - _log:1893 - DEBUG - server lang: <none>
+2023-08-03 23:42:29,802 - _log:1893 - DEBUG - kex follows: False
+2023-08-03 23:42:29,802 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-08-03 23:42:29,802 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-08-03 23:42:29,802 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-08-03 23:42:29,802 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-08-03 23:42:29,803 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-08-03 23:42:29,803 - _log:1893 - DEBUG - Compression: none
+2023-08-03 23:42:29,803 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-08-03 23:42:29,811 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-08-03 23:42:29,812 - _log:1893 - DEBUG - Switch to new keys ...
+2023-08-03 23:42:29,812 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-08-03 23:42:29,814 - _log:1893 - DEBUG - userauth is OK
+2023-08-03 23:42:29,826 - _log:1893 - INFO - Authentication (password) successful!
+2023-08-03 23:42:29,827 - connect:55 - INFO - Failed to Passwordless Ssh to quoccb@192.168.56.102
+2023-08-03 23:42:29,827 - connect:56 - INFO - Ssh to quoccb@192.168.56.102 with Password
+2023-08-03 23:42:29,828 - _log:1210 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2023-08-03 23:42:30,649 - _log:1893 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2023-08-03 23:42:30,649 - _log:1893 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-08-03 23:42:30,689 - _log:1210 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2023-08-03 23:42:30,690 - _log:1893 - DEBUG - Secsh channel 0 opened.
+2023-08-03 23:42:30,691 - _log:1210 - DEBUG - [chan 0] Sesch channel 0 request ok
+2023-08-03 23:42:30,694 - _log:1210 - DEBUG - [chan 0] EOF received (0)
+2023-08-03 23:42:30,694 - _log:1210 - DEBUG - [chan 0] EOF sent (0)
+2023-08-03 23:42:30,694 - _log:1893 - DEBUG - EOF in transport thread
+2023-08-03 23:42:30,695 - _log:1893 - DEBUG - EOF in transport thread
+2023-08-04 00:07:25,445 - _log:1893 - DEBUG - starting thread (client mode): 0xe3549c00
+2023-08-04 00:07:25,445 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-08-04 00:07:25,453 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-08-04 00:07:25,453 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-08-04 00:07:25,455 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-08-04 00:07:25,455 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-08-04 00:07:25,455 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-08-04 00:07:25,455 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-04 00:07:25,455 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-04 00:07:25,455 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-04 00:07:25,455 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-04 00:07:25,455 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-08-04 00:07:25,455 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-08-04 00:07:25,455 - _log:1893 - DEBUG - client lang: <none>
+2023-08-04 00:07:25,455 - _log:1893 - DEBUG - server lang: <none>
+2023-08-04 00:07:25,455 - _log:1893 - DEBUG - kex follows: False
+2023-08-04 00:07:25,455 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-08-04 00:07:25,455 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-08-04 00:07:25,455 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-08-04 00:07:25,456 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-08-04 00:07:25,456 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-08-04 00:07:25,456 - _log:1893 - DEBUG - Compression: none
+2023-08-04 00:07:25,456 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-08-04 00:07:25,461 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-08-04 00:07:25,462 - _log:1893 - DEBUG - Switch to new keys ...
+2023-08-04 00:07:25,462 - _log:1893 - DEBUG - Adding ssh-ed25519 host key for 192.168.56.102: b'ff613e1a8ab4d8cfc57cbba00bb565bd'
+2023-08-04 00:07:25,463 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-08-04 00:07:25,478 - _log:1893 - DEBUG - userauth is OK
+2023-08-04 00:07:25,491 - _log:1893 - INFO - Authentication (password) successful!
+2023-08-04 00:07:25,491 - _log:1210 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2023-08-04 00:07:26,378 - _log:1893 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2023-08-04 00:07:26,378 - _log:1893 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-08-04 00:07:26,418 - _log:1210 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2023-08-04 00:07:26,418 - _log:1893 - DEBUG - Secsh channel 0 opened.
+2023-08-04 00:07:26,420 - _log:1210 - DEBUG - [chan 0] Sesch channel 0 request ok
+2023-08-04 00:07:26,426 - _log:1210 - DEBUG - [chan 0] EOF received (0)
+2023-08-04 00:07:26,427 - _log:1210 - DEBUG - [chan 0] EOF sent (0)
+2023-08-04 00:07:26,428 - _log:1893 - DEBUG - Dropping user packet because connection is dead.
+2023-08-04 00:14:13,534 - connect:50 - ERROR - Failed to access to quoccb@192.168.56.10
+2023-08-04 00:18:08,611 - connect:50 - ERROR - Failed to access to quoccb@192.168.56.10
+2023-08-04 00:18:40,298 - connect:50 - ERROR - Failed to access to quoccb@192.168.56.10
+2023-08-04 00:18:57,271 - _log:1893 - DEBUG - starting thread (client mode): 0xca029c00
+2023-08-04 00:18:57,271 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-08-04 00:18:57,279 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-08-04 00:18:57,279 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-08-04 00:18:57,280 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-08-04 00:18:57,280 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-08-04 00:18:57,280 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-08-04 00:18:57,280 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-04 00:18:57,280 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-04 00:18:57,280 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-04 00:18:57,280 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-04 00:18:57,281 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-08-04 00:18:57,281 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-08-04 00:18:57,281 - _log:1893 - DEBUG - client lang: <none>
+2023-08-04 00:18:57,281 - _log:1893 - DEBUG - server lang: <none>
+2023-08-04 00:18:57,281 - _log:1893 - DEBUG - kex follows: False
+2023-08-04 00:18:57,281 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-08-04 00:18:57,281 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-08-04 00:18:57,281 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-08-04 00:18:57,281 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-08-04 00:18:57,281 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-08-04 00:18:57,281 - _log:1893 - DEBUG - Compression: none
+2023-08-04 00:18:57,281 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-08-04 00:18:57,288 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-08-04 00:18:57,288 - _log:1893 - DEBUG - Switch to new keys ...
+2023-08-04 00:18:57,289 - _log:1893 - DEBUG - Adding ssh-ed25519 host key for 192.168.56.102: b'ff613e1a8ab4d8cfc57cbba00bb565bd'
+2023-08-04 00:18:57,289 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-08-04 00:18:57,304 - _log:1893 - DEBUG - userauth is OK
+2023-08-04 00:18:57,317 - _log:1893 - INFO - Authentication (password) successful!
+2023-08-04 00:18:57,318 - _log:1210 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2023-08-04 00:18:58,151 - _log:1893 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2023-08-04 00:18:58,151 - _log:1893 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-08-04 00:18:58,193 - _log:1210 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2023-08-04 00:18:58,193 - _log:1893 - DEBUG - Secsh channel 0 opened.
+2023-08-04 00:18:58,195 - _log:1210 - DEBUG - [chan 0] Sesch channel 0 request ok
+2023-08-04 00:18:58,198 - _log:1210 - DEBUG - [chan 0] EOF received (0)
+2023-08-04 00:18:58,210 - _log:1210 - DEBUG - [chan 0] EOF sent (0)
+2023-08-04 00:18:58,210 - _log:1893 - DEBUG - Dropping user packet because connection is dead.
+2023-08-04 00:20:28,345 - _log:1893 - DEBUG - starting thread (client mode): 0x50199c00
+2023-08-04 00:20:28,345 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-08-04 00:20:28,354 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-08-04 00:20:28,354 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-08-04 00:20:28,355 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-08-04 00:20:28,355 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-08-04 00:20:28,356 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-08-04 00:20:28,356 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-04 00:20:28,356 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-04 00:20:28,356 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-04 00:20:28,356 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-04 00:20:28,356 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-08-04 00:20:28,356 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-08-04 00:20:28,356 - _log:1893 - DEBUG - client lang: <none>
+2023-08-04 00:20:28,356 - _log:1893 - DEBUG - server lang: <none>
+2023-08-04 00:20:28,356 - _log:1893 - DEBUG - kex follows: False
+2023-08-04 00:20:28,356 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-08-04 00:20:28,356 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-08-04 00:20:28,356 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-08-04 00:20:28,357 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-08-04 00:20:28,357 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-08-04 00:20:28,357 - _log:1893 - DEBUG - Compression: none
+2023-08-04 00:20:28,357 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-08-04 00:20:28,364 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-08-04 00:20:28,364 - _log:1893 - DEBUG - Switch to new keys ...
+2023-08-04 00:20:28,365 - _log:1893 - DEBUG - Adding ssh-ed25519 host key for 192.168.56.102: b'ff613e1a8ab4d8cfc57cbba00bb565bd'
+2023-08-04 00:20:28,365 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-08-04 00:20:28,381 - _log:1893 - DEBUG - userauth is OK
+2023-08-04 00:20:28,393 - _log:1893 - INFO - Authentication (password) successful!
+2023-08-04 00:20:28,393 - _log:1210 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2023-08-04 00:20:29,226 - _log:1893 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2023-08-04 00:20:29,227 - _log:1893 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-08-04 00:20:29,267 - _log:1210 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2023-08-04 00:20:29,268 - _log:1893 - DEBUG - Secsh channel 0 opened.
+2023-08-04 00:20:29,270 - _log:1210 - DEBUG - [chan 0] Sesch channel 0 request ok
+2023-08-04 00:20:29,276 - _log:1210 - DEBUG - [chan 0] EOF received (0)
+2023-08-04 00:20:29,276 - _log:1210 - DEBUG - [chan 0] EOF sent (0)
+2023-08-04 00:20:29,277 - _log:1893 - DEBUG - EOF in transport thread
+2023-08-04 00:50:22,420 - _log:1893 - DEBUG - starting thread (client mode): 0x9b839c00
+2023-08-04 00:50:22,421 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-08-04 00:50:22,431 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-08-04 00:50:22,431 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-08-04 00:50:22,432 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-08-04 00:50:22,432 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-08-04 00:50:22,432 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-08-04 00:50:22,432 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-04 00:50:22,432 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-04 00:50:22,432 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-04 00:50:22,432 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-04 00:50:22,432 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-08-04 00:50:22,432 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-08-04 00:50:22,432 - _log:1893 - DEBUG - client lang: <none>
+2023-08-04 00:50:22,432 - _log:1893 - DEBUG - server lang: <none>
+2023-08-04 00:50:22,432 - _log:1893 - DEBUG - kex follows: False
+2023-08-04 00:50:22,432 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-08-04 00:50:22,433 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-08-04 00:50:22,433 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-08-04 00:50:22,433 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-08-04 00:50:22,433 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-08-04 00:50:22,433 - _log:1893 - DEBUG - Compression: none
+2023-08-04 00:50:22,433 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-08-04 00:50:22,444 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-08-04 00:50:22,445 - _log:1893 - DEBUG - Switch to new keys ...
+2023-08-04 00:50:22,445 - _log:1893 - DEBUG - Adding ssh-ed25519 host key for 192.168.56.102: b'ff613e1a8ab4d8cfc57cbba00bb565bd'
+2023-08-04 00:50:22,446 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-08-04 00:50:22,466 - _log:1893 - DEBUG - userauth is OK
+2023-08-04 00:50:22,478 - _log:1893 - INFO - Authentication (password) successful!
+2023-08-04 00:50:22,479 - _log:1210 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2023-08-04 00:50:23,186 - _log:1893 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2023-08-04 00:50:23,186 - _log:1893 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-08-04 00:50:23,227 - _log:1210 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2023-08-04 00:50:23,227 - _log:1893 - DEBUG - Secsh channel 0 opened.
+2023-08-04 00:50:23,228 - _log:1210 - DEBUG - [chan 0] Sesch channel 0 request ok
+2023-08-04 00:50:23,232 - _log:1210 - DEBUG - [chan 0] EOF received (0)
+2023-08-04 00:50:23,232 - _log:1893 - DEBUG - EOF in transport thread
+2023-08-04 00:50:23,247 - _log:1210 - DEBUG - [chan 0] EOF sent (0)
+2023-08-04 00:50:23,247 - _log:1893 - DEBUG - Dropping user packet because connection is dead.
+2023-08-04 01:50:05,132 - _log:1893 - DEBUG - starting thread (client mode): 0x55249bd0
+2023-08-04 01:50:05,133 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-08-04 01:50:05,141 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-08-04 01:50:05,141 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-08-04 01:50:05,142 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-08-04 01:50:05,142 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-08-04 01:50:05,142 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-08-04 01:50:05,143 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-04 01:50:05,143 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-04 01:50:05,143 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-04 01:50:05,143 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-04 01:50:05,143 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-08-04 01:50:05,143 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-08-04 01:50:05,143 - _log:1893 - DEBUG - client lang: <none>
+2023-08-04 01:50:05,143 - _log:1893 - DEBUG - server lang: <none>
+2023-08-04 01:50:05,143 - _log:1893 - DEBUG - kex follows: False
+2023-08-04 01:50:05,143 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-08-04 01:50:05,143 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-08-04 01:50:05,143 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-08-04 01:50:05,143 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-08-04 01:50:05,143 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-08-04 01:50:05,143 - _log:1893 - DEBUG - Compression: none
+2023-08-04 01:50:05,144 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-08-04 01:50:05,150 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-08-04 01:50:05,151 - _log:1893 - DEBUG - Switch to new keys ...
+2023-08-04 01:50:05,151 - _log:1893 - DEBUG - Adding ssh-ed25519 host key for 192.168.56.102: b'ff613e1a8ab4d8cfc57cbba00bb565bd'
+2023-08-04 01:50:05,151 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-08-04 01:50:05,166 - _log:1893 - DEBUG - userauth is OK
+2023-08-04 01:50:05,179 - _log:1893 - INFO - Authentication (password) successful!
+2023-08-04 01:50:05,180 - _log:1210 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2023-08-04 01:50:05,786 - _log:1893 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2023-08-04 01:50:05,786 - _log:1893 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-08-04 01:50:05,827 - _log:1210 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2023-08-04 01:50:05,827 - _log:1893 - DEBUG - Secsh channel 0 opened.
+2023-08-04 01:50:05,828 - _log:1210 - DEBUG - [chan 0] Sesch channel 0 request ok
+2023-08-04 01:50:05,833 - _log:1210 - DEBUG - [chan 0] EOF received (0)
+2023-08-04 01:50:05,834 - _log:1210 - DEBUG - [chan 0] EOF sent (0)
+2023-08-04 01:50:05,834 - _log:1893 - DEBUG - Dropping user packet because connection is dead.
+2023-08-04 01:50:33,710 - _log:1893 - DEBUG - starting thread (client mode): 0x99f49c00
+2023-08-04 01:50:33,710 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-08-04 01:50:33,718 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-08-04 01:50:33,719 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-08-04 01:50:33,720 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-08-04 01:50:33,720 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-08-04 01:50:33,720 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-08-04 01:50:33,720 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-04 01:50:33,720 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-04 01:50:33,720 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-04 01:50:33,720 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-04 01:50:33,720 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-08-04 01:50:33,720 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-08-04 01:50:33,720 - _log:1893 - DEBUG - client lang: <none>
+2023-08-04 01:50:33,721 - _log:1893 - DEBUG - server lang: <none>
+2023-08-04 01:50:33,721 - _log:1893 - DEBUG - kex follows: False
+2023-08-04 01:50:33,721 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-08-04 01:50:33,721 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-08-04 01:50:33,721 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-08-04 01:50:33,721 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-08-04 01:50:33,721 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-08-04 01:50:33,721 - _log:1893 - DEBUG - Compression: none
+2023-08-04 01:50:33,721 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-08-04 01:50:33,744 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-08-04 01:50:33,744 - _log:1893 - DEBUG - Switch to new keys ...
+2023-08-04 01:50:33,745 - _log:1893 - DEBUG - Adding ssh-ed25519 host key for 192.168.56.102: b'ff613e1a8ab4d8cfc57cbba00bb565bd'
+2023-08-04 01:50:33,745 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-08-04 01:50:33,760 - _log:1893 - DEBUG - userauth is OK
+2023-08-04 01:50:33,772 - _log:1893 - INFO - Authentication (password) successful!
+2023-08-04 01:50:33,773 - _log:1210 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2023-08-04 01:50:34,370 - _log:1893 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2023-08-04 01:50:34,370 - _log:1893 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-08-04 01:50:34,410 - _log:1210 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2023-08-04 01:50:34,410 - _log:1893 - DEBUG - Secsh channel 0 opened.
+2023-08-04 01:50:34,411 - _log:1210 - DEBUG - [chan 0] Sesch channel 0 request ok
+2023-08-04 01:50:34,414 - _log:1210 - DEBUG - [chan 0] EOF received (0)
+2023-08-04 01:50:34,415 - _log:1893 - DEBUG - EOF in transport thread
+2023-08-04 01:50:34,429 - _log:1210 - DEBUG - [chan 0] EOF sent (0)
+2023-08-04 01:50:34,429 - _log:1893 - DEBUG - Dropping user packet because connection is dead.
+2023-08-04 01:52:09,886 - _log:1893 - DEBUG - starting thread (client mode): 0xea449c00
+2023-08-04 01:52:09,887 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-08-04 01:52:09,895 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-08-04 01:52:09,895 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-08-04 01:52:09,897 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-08-04 01:52:09,897 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-08-04 01:52:09,897 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-08-04 01:52:09,897 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-04 01:52:09,898 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-04 01:52:09,898 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-04 01:52:09,898 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-04 01:52:09,898 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-08-04 01:52:09,898 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-08-04 01:52:09,898 - _log:1893 - DEBUG - client lang: <none>
+2023-08-04 01:52:09,898 - _log:1893 - DEBUG - server lang: <none>
+2023-08-04 01:52:09,898 - _log:1893 - DEBUG - kex follows: False
+2023-08-04 01:52:09,898 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-08-04 01:52:09,898 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-08-04 01:52:09,898 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-08-04 01:52:09,898 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-08-04 01:52:09,898 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-08-04 01:52:09,898 - _log:1893 - DEBUG - Compression: none
+2023-08-04 01:52:09,898 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-08-04 01:52:09,905 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-08-04 01:52:09,906 - _log:1893 - DEBUG - Switch to new keys ...
+2023-08-04 01:52:09,906 - _log:1893 - DEBUG - Adding ssh-ed25519 host key for 192.168.56.102: b'ff613e1a8ab4d8cfc57cbba00bb565bd'
+2023-08-04 01:52:09,906 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-08-04 01:52:09,921 - _log:1893 - DEBUG - userauth is OK
+2023-08-04 01:52:09,945 - _log:1893 - INFO - Authentication (password) successful!
+2023-08-04 01:52:09,946 - _log:1210 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2023-08-04 01:52:10,513 - _log:1893 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2023-08-04 01:52:10,513 - _log:1893 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-08-04 01:52:10,554 - _log:1210 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2023-08-04 01:52:10,554 - _log:1893 - DEBUG - Secsh channel 0 opened.
+2023-08-04 01:52:10,556 - _log:1210 - DEBUG - [chan 0] Sesch channel 0 request ok
+2023-08-04 01:52:10,558 - _log:1210 - DEBUG - [chan 0] EOF received (0)
+2023-08-04 01:52:10,570 - _log:1210 - DEBUG - [chan 0] EOF sent (0)
+2023-08-04 01:52:10,571 - _log:1893 - DEBUG - Dropping user packet because connection is dead.
+2023-08-04 01:52:11,488 - _log:1893 - DEBUG - starting thread (client mode): 0x3159c00
+2023-08-04 01:52:11,488 - _log:1893 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-08-04 01:52:11,509 - _log:1893 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.8
+2023-08-04 01:52:11,509 - _log:1893 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-08-04 01:52:11,510 - _log:1893 - DEBUG - === Key exchange possibilities ===
+2023-08-04 01:52:11,510 - _log:1893 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-08-04 01:52:11,510 - _log:1893 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-08-04 01:52:11,510 - _log:1893 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-04 01:52:11,510 - _log:1893 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-08-04 01:52:11,510 - _log:1893 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-04 01:52:11,511 - _log:1893 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-08-04 01:52:11,511 - _log:1893 - DEBUG - client compress: none, zlib@openssh.com
+2023-08-04 01:52:11,511 - _log:1893 - DEBUG - server compress: none, zlib@openssh.com
+2023-08-04 01:52:11,511 - _log:1893 - DEBUG - client lang: <none>
+2023-08-04 01:52:11,511 - _log:1893 - DEBUG - server lang: <none>
+2023-08-04 01:52:11,511 - _log:1893 - DEBUG - kex follows: False
+2023-08-04 01:52:11,511 - _log:1893 - DEBUG - === Key exchange agreements ===
+2023-08-04 01:52:11,511 - _log:1893 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-08-04 01:52:11,511 - _log:1893 - DEBUG - HostKey: ssh-ed25519
+2023-08-04 01:52:11,511 - _log:1893 - DEBUG - Cipher: aes128-ctr
+2023-08-04 01:52:11,511 - _log:1893 - DEBUG - MAC: hmac-sha2-256
+2023-08-04 01:52:11,511 - _log:1893 - DEBUG - Compression: none
+2023-08-04 01:52:11,511 - _log:1893 - DEBUG - === End of kex handshake ===
+2023-08-04 01:52:11,518 - _log:1893 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-08-04 01:52:11,519 - _log:1893 - DEBUG - Switch to new keys ...
+2023-08-04 01:52:11,520 - _log:1893 - DEBUG - Adding ssh-ed25519 host key for 192.168.56.102: b'ff613e1a8ab4d8cfc57cbba00bb565bd'
+2023-08-04 01:52:11,520 - _log:1893 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-08-04 01:52:11,542 - _log:1893 - DEBUG - userauth is OK
+2023-08-04 01:52:11,565 - _log:1893 - INFO - Authentication (password) successful!
+2023-08-04 01:52:11,566 - _log:1210 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2023-08-04 01:52:12,191 - _log:1893 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2023-08-04 01:52:12,192 - _log:1893 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-08-04 01:52:12,232 - _log:1210 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2023-08-04 01:52:12,233 - _log:1893 - DEBUG - Secsh channel 0 opened.
+2023-08-04 01:52:12,235 - _log:1210 - DEBUG - [chan 0] Sesch channel 0 request ok
+2023-08-04 01:52:12,240 - _log:1210 - DEBUG - [chan 0] EOF received (0)
+2023-08-04 01:52:12,260 - _log:1210 - DEBUG - [chan 0] EOF sent (0)
+2023-08-04 01:52:12,261 - _log:1893 - DEBUG - Dropping user packet because connection is dead.
