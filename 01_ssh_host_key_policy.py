@@ -58,14 +58,13 @@ class Ssh(object):
         _stdin, _stdout, _stderr = self._client.exec_command(command, timeout=timeout)
         return _stdin, _stdout, _stderr
 
-
-    def Check_acc_pass_expires(self):
+    def check_acc_pass_expires(self):
         chage_command = "chage -l " + self.username
         _stdin, _stdout, _stderr = self._client.exec_command(command=chage_command)
         x = _stdout.readlines()
         pass_expires = x[1].split(":")[1].replace("\n", "").replace(" ", "")
         acc_expires = x[3].split(":")[1].replace("\n", "").replace(" ", "")
-        if (pass_expires == "never" and acc_expires == "never"):
+        if pass_expires == "never" and acc_expires == "never":
             print("OK")
         else:
             print("not OK")
@@ -80,10 +79,10 @@ if __name__ == "__main__":
 
     _config_logging()
     Vm1 = Ssh(hostname=host, username=username, password=password, timeout=timeout)
-    Vm2 = Ssh(hostname=host, username="red17", password=password,timeout=timeout)
+    Vm2 = Ssh(hostname=host, username="red17", password=password, timeout=timeout)
     connect1 = Vm1.connect()
     connect2 = Vm2.connect()
     if connect1:
-        Vm1.Check_acc_pass_expires()
+        Vm1.check_acc_pass_expires()
     if connect2:
-        Vm2.Check_acc_pass_expires()
+        Vm2.check_acc_pass_expires()
