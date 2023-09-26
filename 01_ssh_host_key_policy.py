@@ -2,7 +2,7 @@ import paramiko
 import logging
 import re
 import os
-
+import string
 
 LOG = logging.getLogger()
 LOG_FILE = re.sub(r'\.py$', r'.log', os.path.basename(__file__))
@@ -69,20 +69,23 @@ class Ssh(object):
         else:
             print("not OK")
 
+    @staticmethod
+    def filter_command_string(command):
+        return ''.join([x for x in command if x in string.printable])
 
 if __name__ == "__main__":
     host = "192.168.56.102"
     username = "quoccb"
     password = "1"
-    command = 'cat test.txt'
+    command = ('''ManagedElement=1,SystemFunctions=1,
+               SwM=1,automaticRestore=0''')
     timeout = 1
 
     _config_logging()
     Vm1 = Ssh(hostname=host, username=username, password=password, timeout=timeout)
-    Vm2 = Ssh(hostname=host, username="red17", password=password, timeout=timeout)
-    connect1 = Vm1.connect()
-    connect2 = Vm2.connect()
-    if connect1:
-        Vm1.check_acc_pass_expires()
-    if connect2:
-        Vm2.check_acc_pass_expires()
+
+    cmd = Vm1.filter_command_string(command)
+
+    print(command)
+
+
